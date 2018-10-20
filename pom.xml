@@ -92,6 +92,20 @@
 			<artifactId>javax.servlet.jsp-api</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+		
+		<!-- Swagger2 Documentation -->
+		<dependency>
+    		<groupId>io.springfox</groupId>
+    		<artifactId>springfox-swagger2</artifactId>
+    		<version>2.9.2</version>
+		</dependency>
+		
+		<!-- Swagger2 UI -->
+		<dependency>
+    		<groupId>io.springfox</groupId>
+		    <artifactId>springfox-swagger-ui</artifactId>
+		    <version>2.9.2</version>
+		</dependency>
 
 		<!-- to compensate for java 9 not including jaxb -->
 		<dependency>
